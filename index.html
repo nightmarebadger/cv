@@ -1,0 +1,597 @@
+<!doctype html>
+<html>
+	<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+
+	<title>Natan Žabkar</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px;
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+
+	</head>
+	<body>
+
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Natan Žabkar
+					</h1>
+					<h2>
+						Software engineer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email"><a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="c3ada2b7a2adedb9a2a1a8a2b183a4aea2aaafeda0acae">[email&#160;protected]</a><script cf-hash='f9e31' type="text/javascript">
+/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Phone</strong>
+				<div class="phone">+386 41 980 810</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="http://www.termitnjak.com/">http://www.termitnjak.com/</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>Interested in most technology-related fields, I strive to create clean, tested and well documented work that accurately expresses the ideas behind it. I value the Open Source community, both professionally, by trying to use Open Source solutions and opening our work where possible, and personally, by giving back to Open Source projects, submitting bug reports and attending sprints and meetings.</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Skype
+					</strong>
+					<div class="username">
+							nightmarebadger
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						GitHub
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/nightmarebadger">nightmarebadger</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="http://si.linkedin.com/in/natanzabkar">Natan Žabkar</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Termitnjak d.o.o.</span>
+					<span class="date">
+						2013 —
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.termitnjak.com/">http://www.termitnjak.com/</a>
+				</div>
+				<div class="position">
+					Software Engineer
+				</div>
+				<div class="summary">
+					<p>In 2013 I have joined Termitnjak d.o.o. as a software developer. After a learning period under the lead developer I have started to work on development oriented tasks concentrating mostly on the back-end (Python) and front-end (HTML, CSS, SASS, JS) but also working on project deployment, SVN to GIT migration and other similar tasks. Together with my colleagues we have created intranet solutions, web applications and portals for customers from Slovenia, Australia, UK, German, USA and Italy.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Design and development of back-end solutions</li>
+					<li class="bullet">Development of front-end solutions that conform to the WCAG 2.0 standard</li>
+					<li class="bullet">Cross browser testing (using SauceLabs)</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Gimnazija Vič, Ljubljana</span>
+					<span class="date">
+						2012 —
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://gimvic.org/">http://gimvic.org/</a>
+				</div>
+				<div class="position">
+					Head of the programming club
+				</div>
+				<div class="summary">
+					<p>In 2012, I have taken over the programming club. The main focus is to teach programming in a fun, easy and presentable way. We allow our students to choose their own projects and focus on useful skills and not only on competitions (as most programming clubs tend to do in our country). </p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>University of Ljubljana, FMF</span>
+					<span class="date">
+						2010 — 2013
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.fmf.uni-lj.si/en/">http://www.fmf.uni-lj.si/en/</a>
+				</div>
+				<div class="position">
+					Demonstrator / Teaching assistant
+				</div>
+				<div class="summary">
+					<p>From 2010 to 2013 I have worked as a teaching assistant at my university. I have taught two Computer Lab courses, one for Mathematicians and one for Physicists. The Mathematician course was focused on general computer knowledge (Word, Excel, Mathematica, LaTeX with Beamer, basic HTML and CSS), while the Physicists course was focused on programming in C (basic C syntax, basic algorithms).</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Teaching the course through material provided by the professor</li>
+					<li class="bullet">Creating tasks from which the professor made tests</li>
+					<li class="bullet">Evaluating/grading exams</li>
+					<li class="bullet">Evaluating/grading assignments</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>University of Ljubljana, FMF</span>
+					<span class="date">
+						2011 — 2012
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://www.fmf.uni-lj.si/en/">http://www.fmf.uni-lj.si/en/</a>
+				</div>
+				<div class="position">
+					Helping at the computer center
+				</div>
+				<div class="summary">
+					<p>Helping set up a customised Linux distribution with global faculty user accounts that spanned over both Windows and Linux machines. Also helped with setting up new machines and maintaining computers used by the staff. </p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Gimnazija Vič, Ljubljana</span>
+					<span class="date">
+						2009 — 2012
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://gimvic.org/">http://gimvic.org/</a>
+				</div>
+				<div class="position">
+					Co-head of the programming club
+				</div>
+				<div class="summary">
+					<p>In 2009, I have started teaching at the programming club at Gimnazija Vič.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Creating an education model for complete beginners</li>
+					<li class="bullet">Teaching Python, basic Mathematics, basic Physics and basic Computer Science to complete beginners and beginners</li>
+					<li class="bullet">Writing monthly and yearly reports</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="volunteer" class="row">
+		<aside class="col-sm-3">
+			<h3>Volunteer</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Open Source</span>
+					<span class="date">
+						2013 —
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href=""></a>
+				</div>
+				<div class="position">
+
+				</div>
+				<div class="summary">
+					<p>I believe that the Open Source movement and community is very important. As such I try to make sure I use Open Source solutions and contribute back to the community where possible. In the last few years, I have tried to help in various projects, mainly by issuing bug reports and writing code.</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Attended various talks and conferences (EuroPython 2014, WebCamp Ljubljana 2015, ... )</li>
+					<li class="bullet">Hosted a talk at one of the Python Meetups in Ljubljana</li>
+					<li class="bullet">Helped organise two Zidanca sprints, one focused on Kotti and NixOS, the second being a strategic Plone sprint focused on Plone 5</li>
+					<li class="bullet">Various work on different Open Source projects, mainly Plone, Pyramid and Kotti</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>KUD Impromobile</span>
+					<span class="date">
+						2013 — 2014
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://eng.impromobile.si/">http://eng.impromobile.si/</a>
+				</div>
+				<div class="position">
+					System administrator
+				</div>
+				<div class="summary">
+					<p>In 2013 we created Cultural Arts Society Impromobile (an improvisational theatre group) with a group of friends and I took care of all the IT things we needed. This included setting up a base simple to use site, registering domains, setting up DNS servers, emails, Google Apps, Google Analytics etc.</p>
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Gimnazija Vič, Ljubljana</span>
+					<span class="date">
+						2007 — 2009
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="http://gimvic.org/ ">http://gimvic.org/ </a>
+				</div>
+				<div class="position">
+					System administrator
+				</div>
+				<div class="summary">
+					<p>From 2007 to 2009 I administrated the server and took care of the web page at my high school. It was based on a custom PHP solution, but we started moving it towards a Python web framework (Bottle) in 2009.</p>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>University of Ljubljana, FMF</span>
+					<span class="date">
+						2009 —
+					</span>
+				</h4>
+				<div class="area">
+					Mathematics
+				</div>
+				<div class="studyType">
+					Bachelor
+				</div>
+				<h4>Courses</h4>
+				<ul class="courses">
+					<li>Computer Lab</li>
+					<li>Programming 1</li>
+					<li>Programming 2</li>
+					<li>Coding Theory and Cryptography</li>
+					<li>Mathematical modelling</li>
+					<li>Data structures and algorithms 1</li>
+					<li>Data structures and algorithms 2</li>
+					<li>Optimisation 1</li>
+					<li>Game Theory</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<div class="name">
+					<h4>Job-related skills</h4>
+				</div>
+				<ul class="keywords">
+					<li>Very good knowledge of the Python programming language</li>
+					<li>Very good knowledge of front-end technologies (HTML, CSS, LESS, SASS) and browser compatibility, knowledge of JS</li>
+					<li>Very good knowledge of GIT and knowledge of SVN</li>
+					<li>Very good knowledge of several web development frameworks (Plone, Pyramid, Kotti)</li>
+					<li>Good knowledge of ZODB and SQL databases</li>
+					<li>Good knowledge of Python testing (unit tests, integration tests, functional testing with the Robot framework)</li>
+					<li>Good knowledge and usage of various validators (pyflakes, jshint, ... )</li>
+					<li>Knowledge of application design, analysis and modelling</li>
+					<li>Knowledge of various Python modules related to visualisation, mathematics, data gathering, writing games, such as Tkinter, PyGame, Pyglet, Cocos2d, NumPy, Matplotlib, ...</li>
+					<li>Some knowledge of OpenGL 3 and 4</li>
+					<li>Some knowledge of Kivy and the Kivy programming language - a cross-platform (Windows, Linux, MacOS, iOS, Android) Python framework for natural user interface development that makes use of innovative user interfaces such as multi-touch apps</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<div class="name">
+					<h4>Communication skills</h4>
+				</div>
+				<ul class="keywords">
+					<li>Good teaching and presentation skills gained during my instructions, teaching the programming club and teaching at the university</li>
+					<li>Good teamwork and communication skills gained during the 8 years as an improvisational theatre actor</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<div class="name">
+					<h4>Organisational / managerial skills</h4>
+				</div>
+				<ul class="keywords">
+					<li>Organisational skills gained through leading the programming club, leading an improvisational theatre team and founding CAS Impromobile.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<div class="name">
+					<h4>Computer skills</h4>
+				</div>
+				<ul class="keywords">
+					<li>Good knowledge of Windows (XP and forward) and Linux (various distributions, Debian, *buntu family, Arch, Gentoo, ... )</li>
+					<li>Good knowledge of Microsoft Word, Excel and it&#x27;s LibreOffice variants (Writer and Calc)</li>
+					<li>Knowledge of Markdown, RST, LaTeX</li>
+					<li>Knowledge of creating presentations in either HTML (reveal.js), LaTeX (via Beamer), Microsoft PowerPoint and LibreOffice Impress</li>
+					<li>Knowledge and experience with pandoc, which can be used to translate between various formats, e.g. Markdown, HTML, reveal.js, LaTeX, ...</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="languages" class="row">
+		<aside class="col-sm-3">
+			<h3>Languages</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>Slovenian</strong>
+				</div>
+				<div class="fluency">
+					Native speaker
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>English</strong>
+				</div>
+				<div class="fluency">
+					Full proficiency (C1 certificate)
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="language">
+					<strong>German</strong>
+				</div>
+				<div class="fluency">
+					Basic proficiency
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+
+	</div>
+
+	</body>
+</html>
