@@ -4,7 +4,7 @@
     "label": "Engineering Manager",
     "picture": "",
     "email": "natan.zabkar@gmail.com",
-    "summary": "Engineering Manager and technical squad lead that likes to tackle problems end-to-end; from ideation, development and release to the feedback & improvement cycle. Enabling teams to deliver value consistently and reliably on difficult problems. Main focus on leadership, back-end, data, with experience in front-end and DevOps as well. 8+ years of industry experience.",
+    "summary": "Engineering Manager and technical squad lead that likes to tackle problems end-to-end, from ideation, development and release to the feedback & improvement cycle. Enabling teams to deliver value consistently and reliably on difficult problems. 8+ years of industry experience, with main focus on leadership, back-end, data, with experience in front-end and DevOps as well. ",
     "location": {
       "address": "",
       "postalCode": "",
@@ -31,16 +31,15 @@
       "position": "Engineering Manager",
       "website": "https://www.skyscanner.net/",
       "startDate": "2019",
-      "summary": "On top of technical squad lead responsibilities I started line managing of ~6 people, but up to 13 people while leading two squads at the highest point. While I shifted into a more organisational, planning and mentoring/support role, I kept my skills sharp by continuing to design solutions, pair code with people, work on squad development tickets and stay on the on-call rotation. The team went through various iterations, from being a small team of 5 engineers to a 10+ cross-discipline (engineering, product, data science, marketing) team.",
+      "summary": "On top of technical squad lead responsibilities I started line managing an average of 6 people, going up to 13 people and leading two squads at the same time. While I shifted into a more organisational, planning and mentoring/support role, I kept my skills sharp by continuing to design solutions, pair code with people, work on squad development tickets and stay on the on-call rotation. The team went through various iterations, from being a small team of 5 engineers to a 10+ cross-discipline (engineering, product, data science, marketing) team.",
       "highlights": [
-        "Proposed company Python production standards about handling dependencies. pip-tools introduced across company as a way to correctly handle transitive dependencies).",
-        "Moved marketing pipelines to a decentralised system which required aligning dozens of people across the business.",
-        "Helped implement our GDPR solutions, primarily focused around our data collection and the information we share with partners.",
-        "Multiple quarterly or half-yearly planning, estimation, stakeholder management. Proposed vision for squad and a plan on how to get there incrementally.",
-        "Active in hiring, doing interviews from graduate to senior levels.",
-        "Reviewed 3rd parties in build vs buy proposals.",
-        "Responsible for delivery, quality and dependability of the squad.",
+        "Introduced pip-tools company-wide as a solution for handling transitive dependencies in Python.",
         "Designed technical solution for moving from 700+ partners to one consolidated platform, which required changes to our partner setup, our external APIs, our tracking and reporting.",
+        "Helped implement our GDPR solutions, focused around our data collection and the information we share with partners.",
+        "Align dozens of people across the business to decentralize marketing data pipelines.",
+        "Proposed vision for squad with a plan of incremental delivery over multiple years of quarterly planning, through impact, delivery estimation and stakeholder management.",
+        "Responsible for delivery, quality and dependability of the squad.",
+        "Active in hiring, doing interviews from graduate to senior levels.",
         "Experience with tracking, valuation and attribution of internal events in a complex ecosystem."
       ]
     },
@@ -53,8 +52,7 @@
       "summary": "Starting as a software engineer in a small engineering team that supported marketing. The focus was primarily on automation and data; gathering (various batch or API partner integrations), cleanup, consolidation and storage (data ETL), sending data back to partners (reporting and automated marketing inventory building) which was primarily done in Python and SQL-like languages (Google BigQuery, Amazon Redshift). A growing list of responsibilities around planning, estimation and stakeholder management culminated in taking over the technical squad lead role after 2 years in this position.",
       "highlights": [
         "Defined squad Python standards, introduced strict automatic linting of our codebases.",
-        "Created and taught an internal 12 week Python course.",
-        "Created an internal SQL course.",
+        "Created and taught an internal 12 week Python course and an internal SQL course.",
         "Mentored multiple people, two of which successfully moved from a non-engineering role to a Software Engineer position.",
         "Found and fixed a difficult bug which resulted in our historic marketing revenue estimations becoming up to 20% incorrect.",
         "Redesigned and rebuilt internal marketing data pipelines to increase performance, add detailed automated testing and reduce error rates. This later grew to over 100 internal data pipelines before moving to a decentralised model."
@@ -75,51 +73,15 @@
       ]
     },
     {
-      "company": "Gimnazija Vič, Ljubljana",
-      "position": "Lead of the programming club",
-      "website": "http://gimvic.org/",
-      "startDate": "2012",
-      "endDate": "2016",
-      "summary": "After 3 years as co-lead, I have taken over leading the programming club. The main focus continued to be to teach programming in a fun, easy and presentable way, which I achieved through splitting the time between more organised courses and focusing on students private projects.",
-      "highlights": [
-        "Created a more complex curriculum, suitable for people with up to 4 years.",
-        "On-boarded a new co-lead, who took over when I moved countries.",
-        "Presented benefits of club to school board to continue working together."
-      ]
-    },
-    {
-      "company": "University of Ljubljana, FMF",
-      "position": "Demonstrator / Teaching assistant",
-      "website": "https://www.fmf.uni-lj.si/en/",
-      "startDate": "2010",
-      "endDate": "2013",
-      "summary": "As a teaching assistant at my university I have taught two Computer Lab courses, one focused on C (basic syntax and algorithms) and the other on general computer knowledge (Word, Excel, Mathematica, LaTeX with Beamer, basic HTML & CSS).",
-      "highlights": [
-        "Taught the course through material provided by the professor.",
-        "Created possible exam questions/tasks.",
-        "Evaluated and graded exams and assignments."
-      ]
-    },
-    {
-      "company": "University of Ljubljana, FMF",
-      "position": "Helping at the computer center",
-      "website": "https://www.fmf.uni-lj.si/en/",
-      "startDate": "2011",
-      "endDate": "2012",
-      "summary": "Setting up a customised Linux distribution with global faculty user accounts that spanned over both Windows and Linux machines. Help with setting up new machines and maintaining computers used by the staff.",
-      "highlights": []
-    },
-    {
-      "company": "Gimnazija Vič, Ljubljana",
-      "position": "Co-lead of the programming club",
-      "website": "https://gimvic.org/",
+      "company": "Older work experience",
       "startDate": "2009",
-      "endDate": "2012",
-      "summary": "Co-leading the programming club at the high school 'Gimnazija Vič', hoping to get high school children excited about programming.",
+      "endDate": "2016",
+      "summary": "Consolidation of older work experience. Teaching Python, C, general computer knowledge. Creating, evaluating and grading exams and assignments. Creating Linux custom environment for university use. Running a successful extracurricular programming club that grew from ~3 to ~35 members.",
       "highlights": [
-        "Created a curriculum for complete beginners.",
-        "Taught Python, basics of Mathematics, Physics, Computer Science to beginners.",
-        "Wrote monthly and yearly reports."
+        "Lead of the programming club at Gimnazija Vič (2012 - 2016).",
+        "Demonstrator / teaching assistant at University of Ljubljana, FMF (2010 - 2013).",
+        "Technical work in computer center at University of Ljubljana, FMF (2011 - 2012).",
+        "Co-lead of the programming club at Gimnazija Vič (2009 - 2012)."
       ]
     }
   ],
@@ -136,17 +98,10 @@
       "summary": "Open source is an important part of any engineering toolset, and occasionally I had the opportunity to contribute back.",
       "highlights": [
         "Attended various talks and conferences, and speaking at some.",
-        "Helped organise two 'Zidanca sprints', one focused on developing Kotti and NixOS, the second being a strategic Plone 5 delivery sprint.",
-        "Worked on various OS projects, mainly in Plone, Pyramid and Kotti."
+        "Helped organise and attended two 'Zidanca sprints', one focused on developing Kotti and NixOS, the second being a strategic Plone 5 delivery sprint.",
+        "Worked on various OS projects, mainly in Plone, Pyramid and Kotti.",
+        "Part of core Plone contributors, allowed to write to Plone core code."
       ]
-    },
-    {
-      "organization": "Gimnazija Vič, Ljubljana",
-      "website": "https://gimvic.org/",
-      "startDate": "2007",
-      "endDate": "2009",
-      "summary": "Administrator of the web page and Linux hosting server for my high school. It was based on a custom PHP solution, but we started moving it towards a Python web framework (Bottle) in 2009.",
-      "highlights": []
     }
   ],
   "education": [
@@ -154,7 +109,8 @@
       "institution": "University of Ljubljana, FMF",
       "area": "Theoretical Mathematics",
       "studyType": "Bachelor",
-      "startDate": "2009"
+      "startDate": "2009",
+      "endDate": "2012"
     }
   ],
   "awards": [],
@@ -164,7 +120,7 @@
       "name": "Technical - expert",
       "level": "Expert",
       "keywords": [
-        "Python, from data to web development and visualisations / GUI applications.",
+        "Python, from data and web development to visualisations and GUI applications.",
         "CI and CD pipelines (Git, Docker, Drone, blue-green deploy).",
         "Scalable architecture approaches.",
         "Various data pipelines (Airflow, Luigi, AWS Batch, Spark).",
@@ -176,7 +132,7 @@
       "level": "Proficient",
       "keywords": [
         "Database systems (SQL and no-SQL; BigQuery, PostgreSQL, AWS Athena, AWS Glue, Databricks, Elasticsearch) at scale (terabytes of data).",
-        "AWS and infrastructure-as-code (Cloudformation, AWS EC2, AWS Batch, Lambda).",
+        "AWS and infrastructure-as-code (CloudFormation, AWS EC2, AWS Batch, Lambda).",
         "Modern front-end technologies (Angular, React, Web Components)."
       ]
     },
@@ -194,7 +150,7 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "Full proficiency (C1 certificate)"
+      "fluency": "Full proficiency"
     },
     {
       "language": "Slovenian",
