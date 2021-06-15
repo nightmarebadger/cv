@@ -1,12 +1,10 @@
 {
   "basics": {
     "name": "Natan Žabkar",
-    "label": "Software engineer",
+    "label": "Engineering Manager",
     "picture": "",
     "email": "natan.zabkar@gmail.com",
-    "phone": "+386 41 980 810",
-    "website": "http://www.termitnjak.com/",
-    "summary": "Interested in most technology-related fields, I strive to create clean, tested and well documented work that accurately expresses the ideas behind it. I value the Open Source community, both professionally, by trying to use Open Source solutions and opening our work where possible, and personally, by giving back to Open Source projects, submitting bug reports and attending sprints and meetings.",
+    "summary": "Engineering Manager and technical squad lead that likes to tackle problems end-to-end; from ideation, development and release to the feedback & improvement cycle. Enabling teams to deliver value consistently and reliably on difficult problems. Main focus on leadership, back-end, data, with experience in front-end and DevOps as well. 8+ years of industry experience.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -16,11 +14,6 @@
     },
     "profiles": [
       {
-        "network": "Skype",
-        "username": "nightmarebadger",
-        "url": ""
-      },
-      {
         "network": "GitHub",
         "username": "nightmarebadger",
         "url": "https://github.com/nightmarebadger"
@@ -28,101 +21,131 @@
       {
         "network": "LinkedIn",
         "username": "Natan Žabkar",
-        "url": "http://si.linkedin.com/in/natanzabkar"
+        "url": "https://www.linkedin.com/in/natanzabkar/"
       }
     ]
   },
   "work": [
     {
+      "company": "Skyscanner Ltd",
+      "position": "Engineering Manager",
+      "website": "https://www.skyscanner.net/",
+      "startDate": "2019",
+      "summary": "On top of technical squad lead responsibilities I started line managing of ~6 people, but up to 13 people while leading two squads at the highest point. While I shifted into a more organisational, planning and mentoring/support role, I kept my skills sharp by continuing to design solutions, pair code with people, work on squad development tickets and stay on the on-call rotation. The team went through various iterations, from being a small team of 5 engineers to a 10+ cross-discipline (engineering, product, data science, marketing) team.",
+      "highlights": [
+        "Proposed company Python production standards about handling dependencies. pip-tools introduced across company as a way to correctly handle transitive dependencies).",
+        "Moved marketing pipelines to a decentralised system which required aligning dozens of people across the business.",
+        "Helped implement our GDPR solutions, primarily focused around our data collection and the information we share with partners.",
+        "Multiple quarterly or half-yearly planning, estimation, stakeholder management. Proposed vision for squad and a plan on how to get there incrementally.",
+        "Active in hiring, doing interviews from graduate to senior levels.",
+        "Reviewed 3rd parties in build vs buy proposals.",
+        "Responsible for delivery, quality and dependability of the squad.",
+        "Designed technical solution for moving from 700+ partners to one consolidated platform, which required changes to our partner setup, our external APIs, our tracking and reporting.",
+        "Experience with tracking, valuation and attribution of internal events in a complex ecosystem."
+      ]
+    },
+    {
+      "company": "Skyscanner Ltd",
+      "position": "Software Engineer",
+      "website": "https://www.skyscanner.net/",
+      "startDate": "2016",
+      "endDate": "2019",
+      "summary": "Starting as a software engineer in a small engineering team that supported marketing. The focus was primarily on automation and data; gathering (various batch or API partner integrations), cleanup, consolidation and storage (data ETL), sending data back to partners (reporting and automated marketing inventory building) which was primarily done in Python and SQL-like languages (Google BigQuery, Amazon Redshift). A growing list of responsibilities around planning, estimation and stakeholder management culminated in taking over the technical squad lead role after 2 years in this position.",
+      "highlights": [
+        "Defined squad Python standards, introduced strict automatic linting of our codebases.",
+        "Created and taught an internal 12 week Python course.",
+        "Created an internal SQL course.",
+        "Mentored multiple people, two of which successfully moved from a non-engineering role to a Software Engineer position.",
+        "Found and fixed a difficult bug which resulted in our historic marketing revenue estimations becoming up to 20% incorrect.",
+        "Redesigned and rebuilt internal marketing data pipelines to increase performance, add detailed automated testing and reduce error rates. This later grew to over 100 internal data pipelines before moving to a decentralised model."
+      ]
+    },
+    {
       "company": "Termitnjak d.o.o.",
       "position": "Software Engineer",
-      "website": "http://www.termitnjak.com/",
+      "website": "https://www.termitnjak.com/en",
       "startDate": "2013",
-      "endDate": "",
-      "summary": "In 2013 I have joined Termitnjak d.o.o. as a software developer. After a learning period under the lead developer I have started to work on development oriented tasks concentrating mostly on the back-end (Python) and front-end (HTML, CSS, SASS, JS) but also working on project deployment, SVN to GIT migration and other similar tasks. Together with my colleagues we have created intranet solutions, web applications and portals for customers from Slovenia, Australia, UK, German, USA and Italy.",
+      "endDate": "2016",
+      "summary": "After a short learning period under the lead developer I worked independently on the full development cycle, from planning (including estimation and contract reviews), back-end (Python), front-end (HTML, CSS/LESS/SASS, SASS, JS), data layers (various SQL databases, ZODB) and deployment of various websites, web apps and custom intranet solutions for an international audience.",
       "highlights": [
-        "Design and development of back-end solutions",
-        "Development of front-end solutions that conform to the WCAG 2.0 standard",
-        "Cross browser testing (using SauceLabs)"
+        "Architecture design and development, mainly focused on back-end and data layers.",
+        "Implemented front-end designs while conforming to WCAG 2.0 standards.",
+        "Cross-OS and cross-browser testing (using SauceLabs).",
+        "Pushed for and ran SVN -> GIT migration of all company projects."
       ]
     },
     {
       "company": "Gimnazija Vič, Ljubljana",
-      "position": "Head of the programming club",
+      "position": "Lead of the programming club",
       "website": "http://gimvic.org/",
       "startDate": "2012",
-      "endDate": "",
-      "summary": "In 2012, I have taken over the programming club. The main focus is to teach programming in a fun, easy and presentable way. We allow our students to choose their own projects and focus on useful skills and not only on competitions (as most programming clubs tend to do in our country). ",
-      "highlights": []
+      "endDate": "2016",
+      "summary": "After 3 years as co-lead, I have taken over leading the programming club. The main focus continued to be to teach programming in a fun, easy and presentable way, which I achieved through splitting the time between more organised courses and focusing on students private projects.",
+      "highlights": [
+        "Created a more complex curriculum, suitable for people with up to 4 years.",
+        "On-boarded a new co-lead, who took over when I moved countries.",
+        "Presented benefits of club to school board to continue working together."
+      ]
     },
     {
       "company": "University of Ljubljana, FMF",
       "position": "Demonstrator / Teaching assistant",
-      "website": "http://www.fmf.uni-lj.si/en/",
+      "website": "https://www.fmf.uni-lj.si/en/",
       "startDate": "2010",
       "endDate": "2013",
-      "summary": "From 2010 to 2013 I have worked as a teaching assistant at my university. I have taught two Computer Lab courses, one for Mathematicians and one for Physicists. The Mathematician course was focused on general computer knowledge (Word, Excel, Mathematica, LaTeX with Beamer, basic HTML and CSS), while the Physicists course was focused on programming in C (basic C syntax, basic algorithms).",
+      "summary": "As a teaching assistant at my university I have taught two Computer Lab courses, one focused on C (basic syntax and algorithms) and the other on general computer knowledge (Word, Excel, Mathematica, LaTeX with Beamer, basic HTML & CSS).",
       "highlights": [
-        "Teaching the course through material provided by the professor",
-        "Creating tasks from which the professor made tests",
-        "Evaluating/grading exams",
-        "Evaluating/grading assignments"
+        "Taught the course through material provided by the professor.",
+        "Created possible exam questions/tasks.",
+        "Evaluated and graded exams and assignments."
       ]
     },
     {
       "company": "University of Ljubljana, FMF",
       "position": "Helping at the computer center",
-      "website": "http://www.fmf.uni-lj.si/en/",
+      "website": "https://www.fmf.uni-lj.si/en/",
       "startDate": "2011",
       "endDate": "2012",
-      "summary": "Helping set up a customised Linux distribution with global faculty user accounts that spanned over both Windows and Linux machines. Also helped with setting up new machines and maintaining computers used by the staff. ",
+      "summary": "Setting up a customised Linux distribution with global faculty user accounts that spanned over both Windows and Linux machines. Help with setting up new machines and maintaining computers used by the staff.",
       "highlights": []
     },
     {
       "company": "Gimnazija Vič, Ljubljana",
-      "position": "Co-head of the programming club",
-      "website": "http://gimvic.org/",
+      "position": "Co-lead of the programming club",
+      "website": "https://gimvic.org/",
       "startDate": "2009",
       "endDate": "2012",
-      "summary": "In 2009, I have started teaching at the programming club at Gimnazija Vič.",
+      "summary": "Co-leading the programming club at the high school 'Gimnazija Vič', hoping to get high school children excited about programming.",
       "highlights": [
-        "Creating an education model for complete beginners",
-        "Teaching Python, basic Mathematics, basic Physics and basic Computer Science to complete beginners and beginners",
-        "Writing monthly and yearly reports"
+        "Created a curriculum for complete beginners.",
+        "Taught Python, basics of Mathematics, Physics, Computer Science to beginners.",
+        "Wrote monthly and yearly reports."
       ]
     }
   ],
   "volunteer": [
     {
+      "organization": "Code First Girls",
+      "position": "Instructor",
+      "website": "https://codefirstgirls.org.uk/",
+      "startDate": "2019",
+      "summary": "Volunteer instructor for multiple 10 week Code First Girl basic web development courses."
+    },
+    {
       "organization": "Open Source",
-      "position": "",
-      "website": "",
-      "startDate": "2013",
-      "endDate": "",
-      "summary": "I believe that the Open Source movement and community is very important. As such I try to make sure I use Open Source solutions and contribute back to the community where possible. In the last few years, I have tried to help in various projects, mainly by issuing bug reports and writing code.",
+      "summary": "Open source is an important part of any engineering toolset, and occasionally I had the opportunity to contribute back.",
       "highlights": [
-        "Attended various talks and conferences (EuroPython 2014, WebCamp Ljubljana 2015, ... )",
-        "Hosted a talk at one of the Python Meetups in Ljubljana",
-        "Helped organise two Zidanca sprints, one focused on Kotti and NixOS, the second being a strategic Plone sprint focused on Plone 5",
-        "Various work on different Open Source projects, mainly Plone, Pyramid and Kotti"
+        "Attended various talks and conferences, and speaking at some.",
+        "Helped organise two 'Zidanca sprints', one focused on developing Kotti and NixOS, the second being a strategic Plone 5 delivery sprint.",
+        "Worked on various OS projects, mainly in Plone, Pyramid and Kotti."
       ]
     },
     {
-      "organization": "KUD Impromobile",
-      "position": "System administrator",
-      "website": "http://eng.impromobile.si/",
-      "startDate": "2013",
-      "endDate": "2014",
-      "summary": "In 2013 we created Cultural Arts Society Impromobile (an improvisational theatre group) with a group of friends and I took care of all the IT things we needed. This included setting up a base simple to use site, registering domains, setting up DNS servers, emails, Google Apps, Google Analytics etc.",
-      "highlights": []
-    },
-    {
       "organization": "Gimnazija Vič, Ljubljana",
-      "position": "System administrator",
-      "website": "http://gimvic.org/ ",
+      "website": "https://gimvic.org/",
       "startDate": "2007",
       "endDate": "2009",
-      "summary": "From 2007 to 2009 I administrated the server and took care of the web page at my high school. It was based on a custom PHP solution, but we started moving it towards a Python web framework (Bottle) in 2009.",
+      "summary": "Administrator of the web page and Linux hosting server for my high school. It was based on a custom PHP solution, but we started moving it towards a Python web framework (Bottle) in 2009.",
       "highlights": []
     }
   ],
@@ -132,8 +155,6 @@
       "area": "Mathematics",
       "studyType": "Bachelor",
       "startDate": "2009",
-      "endDate": "",
-      "gpa": "",
       "courses": [
         "Computer Lab",
         "Programming 1",
@@ -151,57 +172,44 @@
   "publications": [],
   "skills": [
     {
-      "name": "Job-related skills",
-      "level": "",
+      "name": "Technical - expert",
+      "level": "Expert",
       "keywords": [
-        "Very good knowledge of the Python programming language",
-        "Very good knowledge of front-end technologies (HTML, CSS, LESS, SASS) and browser compatibility, knowledge of JS",
-        "Very good knowledge of GIT and knowledge of SVN",
-        "Very good knowledge of several web development frameworks (Plone, Pyramid, Kotti)",
-        "Good knowledge of ZODB and SQL databases",
-        "Good knowledge of Python testing (unit tests, integration tests, functional testing with the Robot framework)",
-        "Good knowledge and usage of various validators (pyflakes, jshint, ... )",
-        "Knowledge of application design, analysis and modelling",
-        "Knowledge of various Python modules related to visualisation, mathematics, data gathering, writing games, such as Tkinter, PyGame, Pyglet, Cocos2d, NumPy, Matplotlib, ...",
-        "Some knowledge of OpenGL 3 and 4",
-        "Some knowledge of Kivy and the Kivy programming language - a cross-platform (Windows, Linux, MacOS, iOS, Android) Python framework for natural user interface development that makes use of innovative user interfaces such as multi-touch apps"
+        "Python, from data to web development and visualisations / GUI applications.",
+        "CI and CD pipelines (Git, Docker, Drone, blue-green deploy).",
+        "Scalable architecture approaches.",
+        "Various data pipelines (Airflow, Luigi, AWS Batch, Spark).",
+        "Technical and user metrics and effective testing."
       ]
     },
     {
-      "name": "Communication skills",
-      "level": "",
+      "name": "Technical - proficient",
+      "level": "Proficient",
       "keywords": [
-        "Good teaching and presentation skills gained during my instructions, teaching the programming club and teaching at the university",
-        "Good teamwork and communication skills gained during the 8 years as an improvisational theatre actor"
+        "Database systems (SQL and no-SQL; BigQuery, PostgreSQL, AWS Athena, AWS Glue, Databricks, Elasticsearch) at scale (terabytes of data).",
+        "AWS and infrastructure-as-code (Cloudformation, AWS EC2, AWS Batch, Lambda).",
+        "Modern front-end technologies (Angular, React, Web Components)."
       ]
     },
     {
-      "name": "Organisational / managerial skills",
+      "name": "Leadership and management",
       "level": "",
       "keywords": [
-        "Organisational skills gained through leading the programming club, leading an improvisational theatre team and founding CAS Impromobile."
-      ]
-    },
-    {
-      "name": "Computer skills",
-      "level": "",
-      "keywords": [
-        "Good knowledge of Windows (XP and forward) and Linux (various distributions, Debian, *buntu family, Arch, Gentoo, ... )",
-        "Good knowledge of Microsoft Word, Excel and it's LibreOffice variants (Writer and Calc)",
-        "Knowledge of Markdown, RST, LaTeX",
-        "Knowledge of creating presentations in either HTML (reveal.js), LaTeX (via Beamer), Microsoft PowerPoint and LibreOffice Impress",
-        "Knowledge and experience with pandoc, which can be used to translate between various formats, e.g. Markdown, HTML, reveal.js, LaTeX, ..."
+        "Experienced teacher, mentor, presenter and line manager.",
+        "Good teamwork and communication, especially when aligning with non-engineers.",
+        "Good knowledge of planning, impact estimation, time estimation and prioritisation techniques.",
+        "Experience with growing people, leading them through multiple promotions, role changes or squad changes."
       ]
     }
   ],
   "languages": [
     {
-      "language": "Slovenian",
-      "fluency": "Native speaker"
-    },
-    {
       "language": "English",
       "fluency": "Full proficiency (C1 certificate)"
+    },
+    {
+      "language": "Slovenian",
+      "fluency": "Native speaker"
     },
     {
       "language": "German",
