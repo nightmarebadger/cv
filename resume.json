@@ -152,20 +152,9 @@
   "education": [
     {
       "institution": "University of Ljubljana, FMF",
-      "area": "Mathematics",
+      "area": "Theoretical Mathematics",
       "studyType": "Bachelor",
-      "startDate": "2009",
-      "courses": [
-        "Computer Lab",
-        "Programming 1",
-        "Programming 2",
-        "Coding Theory and Cryptography",
-        "Mathematical modelling",
-        "Data structures and algorithms 1",
-        "Data structures and algorithms 2",
-        "Optimisation 1",
-        "Game Theory"
-      ]
+      "startDate": "2009"
     }
   ],
   "awards": [],
@@ -210,10 +199,6 @@
     {
       "language": "Slovenian",
       "fluency": "Native speaker"
-    },
-    {
-      "language": "German",
-      "fluency": "Basic proficiency"
     }
   ],
   "interests": [],
