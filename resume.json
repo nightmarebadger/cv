@@ -4,7 +4,7 @@
     "label": "Engineering Manager",
     "picture": "",
     "email": "natan.zabkar@gmail.com",
-    "summary": "Engineering Manager and technical squad lead that likes to tackle problems end-to-end, from ideation, development and release to the feedback & improvement cycle. Enabling teams to deliver value consistently and reliably on difficult problems. 8+ years of industry experience, with main focus on leadership, back-end, data, with experience in front-end and DevOps as well. ",
+    "summary": "Engineering Manager and technical squad lead that likes to tackle problems end-to-end, from ideation, development and release to the feedback & improvement cycle. Enabling teams to deliver value consistently and reliably on difficult problems. 10 years of industry experience, with main focus on leadership, back-end, data, with experience in front-end and DevOps as well. ",
     "location": {
       "address": "",
       "postalCode": "",
@@ -27,11 +27,25 @@
   },
   "work": [
     {
+      "company": "Wayflyer",
+      "position": "Senior Product Engineer, Lead Engineer, Engineering Manager",
+      "website": "https://wayflyer.com/",
+      "startDate": "Oct 2021",
+      "summary": "I joined the company when engineering was just split into two teams and still organised our sprints with the COO directly, I've gotten heavily involved in people growth through hiring and onboarding, seeing the company scale up to 80+ engineers. I've had the pleasure of building a team around me as the Lead Engineer, and after an internal restructure officially line managed 9 people, working to make us an effective and psychologically safe group while running cross-team projects.",
+      "highlights": [
+        "A month into the job, I led a multi-week response to a Google verification incident that required significant changes to our onboarding flows, authentication, secrets management, privacy policy and Google console setup, without adversely affecting our customers. ",
+        "Planned, technically designed and successfully delivery 'multi-store', the first big cross-team project after the restructured into smaller pods. This involved changes to the majority of data systems, plus a migration of all of our customers, which was achieved without disrupting operation.",
+        "Started with hands-on coding to help delivery, moved to a hand-off enablement role as the team around me grew.",
+        "Led 5-10 interviews per week for a few months, trained other interviewers."
+      ]
+    },
+    {
       "company": "Skyscanner Ltd",
       "position": "Engineering Manager",
       "website": "https://www.skyscanner.net/",
-      "startDate": "2019",
-      "summary": "On top of technical squad lead responsibilities I started line managing an average of 6 people, going up to 13 people and leading two squads at the same time. While I shifted into a more organisational, planning and mentoring/support role, I kept my skills sharp by continuing to design solutions, pair code with people, work on squad development tickets and stay on the on-call rotation. The team went through various iterations, from being a small team of 5 engineers to a 10+ cross-discipline (engineering, product, data science, marketing) team.",
+      "startDate": "Jan 2019",
+      "endDate": "Oct 2021",
+      "summary": "On top of technical squad lead responsibilities I started line managing an average of 6 people, going up to 13 people while leading two squads. While I shifted into a more organisational, planning and mentoring/support role, I kept my skills sharp by continuing to design solutions, pair code with people, work on squad development tickets and stay on the on-call rotation. The team went through various iterations, from being a small team of 5 engineers to a 10+ cross-discipline (engineering, product, data science, marketing) team.",
       "highlights": [
         "Introduced pip-tools company-wide as a solution for handling transitive dependencies in Python.",
         "Designed technical solution for moving from 700+ partners to one consolidated platform, which required changes to our partner setup, our external APIs, our tracking and reporting.",
@@ -47,8 +61,8 @@
       "company": "Skyscanner Ltd",
       "position": "Software Engineer",
       "website": "https://www.skyscanner.net/",
-      "startDate": "2016",
-      "endDate": "2019",
+      "startDate": "Jan 2016",
+      "endDate": "Jan 2019",
       "summary": "Starting as a software engineer in a small engineering team that supported marketing. The focus was primarily on automation and data; gathering (various batch or API partner integrations), cleanup, consolidation and storage (data ETL), sending data back to partners (reporting and automated marketing inventory building) which was primarily done in Python and SQL-like languages (Google BigQuery, Amazon Redshift). A growing list of responsibilities around planning, estimation and stakeholder management culminated in taking over the technical squad lead role after 2 years in this position.",
       "highlights": [
         "Defined squad Python standards, introduced strict automatic linting of our codebases.",
@@ -59,25 +73,12 @@
       ]
     },
     {
-      "company": "Termitnjak d.o.o.",
-      "position": "Software Engineer",
-      "website": "https://www.termitnjak.com/en",
-      "startDate": "2013",
-      "endDate": "2016",
-      "summary": "After a short learning period under the lead developer I worked independently on the full development cycle, from planning (including estimation and contract reviews), back-end (Python), front-end (HTML, CSS/LESS/SASS, SASS, JS), data layers (various SQL databases, ZODB) and deployment of various websites, web apps and custom intranet solutions for an international audience.",
-      "highlights": [
-        "Architecture design and development, mainly focused on back-end and data layers.",
-        "Implemented front-end designs while conforming to WCAG 2.0 standards.",
-        "Cross-OS and cross-browser testing (using SauceLabs).",
-        "Pushed for and ran SVN -> GIT migration of all company projects."
-      ]
-    },
-    {
       "company": "Older work experience",
       "startDate": "2009",
       "endDate": "2016",
-      "summary": "Consolidation of older work experience. Teaching Python, C, general computer knowledge. Creating, evaluating and grading exams and assignments. Creating Linux custom environment for university use. Running a successful extracurricular programming club that grew from ~3 to ~35 members.",
+      "summary": "Consolidation of older work experience. Working as a full-stack software engineer on CMS systems and intranets for an international audience. Teaching Python, C, general computer knowledge. Creating, evaluating and grading exams and assignments. Creating Linux custom environment for university use. Running a successful extracurricular programming club that grew from ~3 to ~35 members.",
       "highlights": [
+        "Full-stack software engineer at Termitnjak d.o.o. (2013 - 2016)",
         "Lead of the programming club at Gimnazija Vič (2012 - 2016).",
         "Demonstrator / teaching assistant at University of Ljubljana, FMF (2010 - 2013).",
         "Technical work in computer center at University of Ljubljana, FMF (2011 - 2012).",
@@ -91,6 +92,7 @@
       "position": "Instructor",
       "website": "https://codefirstgirls.org.uk/",
       "startDate": "2019",
+      "endDate": "2021",
       "summary": "Volunteer instructor for multiple 10 week Code First Girl basic web development courses."
     },
     {
