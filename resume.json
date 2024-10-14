@@ -27,15 +27,26 @@
   },
   "work": [
     {
+      "company": "topi",
+      "position": "Engineering Manager",
+      "website": "https://topi.eu/",
+      "startDate": "January 2023",
+      "summary": "",
+      "highlights": [
+        ""
+      ]
+    },
+    {
       "company": "Wayflyer",
       "position": "Senior Product Engineer, Lead Engineer, Engineering Manager",
       "website": "https://wayflyer.com/",
       "startDate": "Oct 2021",
-      "summary": "I joined the company when engineering was just split into two teams and still organised our sprints with the COO directly, I've gotten heavily involved in people growth through hiring and onboarding, seeing the company scale up to 80+ engineers. I've had the pleasure of building a team around me as the Lead Engineer, and after an internal restructure officially line managed 9 people, working to make us an effective and psychologically safe group while running cross-team projects.",
+      "endDate": "December 2022",
+      "summary": "I joined the company during a pivotal period when the engineering department was just dividing into two teams and still organising sprints directly with the COO. I've gotten heavily involved in people growth through hiring and onboarding and helped the company scale from 14 to 90+ engineers. I've had the pleasure of building two teams around me as the Lead Engineer and Engineering Manager, working to make us an effective and psychologically safe group while running cross-team projects.",
       "highlights": [
-        "A month into the job, I led a multi-week response to a Google verification incident that required significant changes to our onboarding flows, authentication, secrets management, privacy policy and Google console setup, without adversely affecting our customers. ",
-        "Planned, technically designed and successfully delivery 'multi-store', the first big cross-team project after the restructured into smaller pods. This involved changes to the majority of data systems, plus a migration of all of our customers, which was achieved without disrupting operation.",
-        "Started with hands-on coding to help delivery, moved to a hand-off enablement role as the team around me grew.",
+        "A month into the job, I led a multi-week response to a Google verification incident that required significant changes to our onboarding flows, authentication, secrets management, privacy policy and Google console setup, without adversely affecting our customers.",
+        "Planned, technically designed and successfully delivered 'multi-store', the first big cross-team project after a restructure into smaller pods. This involved changes to the majority of our data systems plus a live migration of all of our customers, all achieved without disrupting operation.",
+        "Started with hands-on coding to help delivery, moved to a hands-off enablement role as the team grew.",
         "Conducted 5-10 interviews per week for a few months, trained other interviewers."
       ]
     },
